@@ -1,0 +1,12 @@
+img {
+    border: black solid blue;
+    border-radius: 30px;
+}
+
+table {
+    margin: 5%;
+}
+
+.y {
+    text-align: center;
+}
