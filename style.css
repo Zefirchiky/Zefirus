@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.border {
+    border: white solid 2px;
+    margin: 10px;
+    border-radius: 10px;
+}
