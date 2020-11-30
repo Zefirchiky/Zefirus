@@ -1,0 +1,65 @@
+.t {
+    height: 200px;
+    width: 350px;
+    margin: 30px 20px;
+    background: linear-gradient(blue, purple);
+    display: flex;
+    border-radius: 5%;
+}
+
+.t2 {
+    height: 200px;
+    width: 350px;
+    margin: 30px 20px;
+    background: linear-gradient(red, black);
+    display: flex;
+    border-radius: 5%;
+}
+
+.t3 {
+    height: 200px;
+    width: 350px;
+    margin: 30px 20px;
+    background: linear-gradient(black, blue);
+    display: flex;
+    border-radius: 5%;
+}
+
+.t4 {
+    height: 200px;
+    width: 350px;
+    margin: 30px 20px;
+    background: linear-gradient(blue, red);
+    display: flex;
+    border-radius: 5%;
+}
+
+img {
+    height: 250px;
+    position: relative;
+    display: block;
+    bottom: 20px;
+    left: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: white;
+}
+
+h6{
+    font-size: 14px;
+    color: white;
+}
+
+.u {
+    display: flex;
+}
+
+.text1 {
+    margin-right: 10px;
+}
+
+.text2 {
+    margin-left: 50px;
+}
