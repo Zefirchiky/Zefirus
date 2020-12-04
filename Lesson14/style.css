@@ -1,0 +1,17 @@
+fieldset {
+    width: 400px;
+}
+
+.t {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    height: 15px;
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 20px;
+}
