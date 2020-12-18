@@ -1,8 +1,0 @@
-body {
-    background-color: black;
-}
-
-input:focus {
-    border: 2px solid RED;
-    box-shadow: white 1px 1px 10px;
-}
