@@ -1,0 +1,146 @@
+body {
+    background-color: chocolate;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    border: solid black 5px;
+    border-radius: 45% 45% 40% 40%;
+    margin-left: 41%;
+    margin-top: 400px;
+    position: absolute;
+    display: box;
+    box-shadow: brown -20px 20px 20px;
+    z-index: 2;
+}
+
+.box2, .box3 {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+}
+
+.yshi {
+    width: 75px;
+    height: 400px;
+    background-color: gray;
+    border: solid black 5px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 350px;
+    z-index: 2;
+}
+
+.yshi_white {
+    width: 50px;
+    height: 300px;
+    background-color: white;
+    border-radius: 100%;
+    margin: auto auto;
+    margin-top: 50%;
+    border: solid black 5px;
+    z-index: 2;
+}
+
+.ears {
+    width: 50px;
+    height: 65px;
+    border: solid black 5px;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+    bottom: 325px;
+    z-index: 2;
+}
+
+.black_ears {
+    width: 30px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    box-shadow: darkturquoise -5px 5px 5px;
+}
+
+.r {
+    width: 40px;
+    height: 50px;
+    background: linear-gradient(blue, teal);
+    border-radius: 100%;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    z-index: 2;
+}
+
+.nose {
+    width: 60px;
+    height: 35px;
+    background-color: red;
+    border: solid black 5px;
+    border-radius: 100%;
+    position: relative;
+    left: 114px;
+    bottom: 320px;
+    z-index: 2;
+}
+
+.nose_line {
+    height: 35px;
+    width: 5px;
+    background-color: black;
+    position: relative;
+    left: 45%;
+    z-index: 2;
+}
+
+.mose {
+    width: 120px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    left: 90px;
+    bottom: 305px;
+    display: flex;
+    z-index: 2;
+}
+
+.teeth {
+    width: 40px;
+    height: 90px;
+    background-color: white;
+    border: solid black 5px;
+    position: relative;
+    left: 10px;
+    z-index: 2;
+}
+
+.box6 {
+    width: 600px;
+    height: 600px;
+    background-color: gray;
+    border-radius: 100%;
+    border: solid black 5px;
+    z-index: 1;
+    position: relative;
+    left: 50%;
+    top: 450px;
+}
+
+.body {
+    height: 750px;
+    width: 610px;
+    background-color: chocolate;
+    position: relative;
+    border-top: solid black 5px;
+    top: 300px;
+    right: 5px;
+    z-index: 1;
+}
