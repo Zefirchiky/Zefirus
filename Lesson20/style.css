@@ -1,0 +1,44 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.login {
+    width: 380px;
+    height: 450px;
+    background-color: white;
+    border: 1px #C0C0C0 solid;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 200px;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+input {
+    border: 1px #C0C0C0 solid;
+    height: 35px;
+    width: 300px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+fieldset {
+    background-color: white;
+    height: 1px;
+    width: 300px;
+    border-top: #C0C0C0 1px solid;
+    border-bottom: white 1px solid;
+    border-right: white 1px solid;
+    border-left: white 1px solid;
+    margin: auto auto;
+}
+
+legend {
+    font-size: 30px;
+}
+
+a {
+    margin-left: 120px;
+}
