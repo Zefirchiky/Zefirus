@@ -7,6 +7,21 @@
     border-radius: 5%;
 }
 
+.t:hover,
+.t2:hover,
+.t3:hover,
+.t4:hover {
+    height: 350px;
+    width: 500px;
+}
+
+.t,
+.t2,
+.t3,
+.t4 {
+    transition: all 0.8s;
+}
+
 .t2 {
     height: 200px;
     width: 350px;
@@ -47,7 +62,7 @@ h3 {
     color: white;
 }
 
-h6{
+h6 {
     font-size: 14px;
     color: white;
 }
