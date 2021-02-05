@@ -1,0 +1,40 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.box div {
+    box-shadow: skyblue 10px 10px 10px;
+}
+
+.item1 {
+    width: 89%;
+    height: 280px;
+    background-color: blue;
+    margin: auto auto;
+    margin-top: 25px;
+}
+
+.item2 {
+    width: 20%;
+    height: 580px;
+    background-color: red;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.item3 {
+    width: 67.4%;
+    height: 580px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: green;
+    font-size: 30px;
+}
+
+img {
+    height: 550px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
