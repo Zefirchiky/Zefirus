@@ -21,6 +21,12 @@
     margin-top: 25px;
 }
 
+.imgMe {
+    margin-right: 300px;
+    height: 650px;
+    margin-top: 28px;
+}
+
 .blog {
     height: 30px;
     border: none;
@@ -33,6 +39,11 @@
     bottom: 6px;
 }
 
+.menu *:hover {
+    color: darkviolet;
+    transition: 0.4s;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -40,21 +51,72 @@ a {
 
 .me {
     height: 680px;
-    background-color: rgb(234, 235, 238);
+    background-color: #f9f9ff;
     display: flex;
 }
 
-.aboutMe {
+.itsMe {
     margin-left: 400px;
-    margin-top: 200px;
+    margin-top: 200px
 }
 
 .this {
     font-family: 'Raleway', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-
+    margin-top: 20px;
 }
 
 .myName {
     margin-top: 20px;
+    font-size: 50px;
+}
+
+.aboutMe {
+    height: 300px;
+    width: 25%;
+    margin-top: 200px;
+    margin-right: 430px;
+}
+
+.allAboutMe {
+    display: flex;
+}
+
+.imgAbout {
+    margin-top: 200px;
+    margin-left: 230px;
+    height: 100%;
+}
+
+.discover {
+    height: 35px;
+    width: 150px;
+    background: linear-gradient(#8490ff 0%, #62bdfc 100%);
+    position: relative;
+    top: 20px;
+    right: 240px;
+}
+
+.a1 {
+    color: white;
+    font-size: 14px;
+    margin-left: 14px;
+    position: relative;
+    top: 8px;
+}
+
+.aboutBut {
+    height: 35px;
+    width: 175px;
+    background: linear-gradient(#8490ff 0%, #62bdfc 100%);
+    position: relative;
+    top: 20px;
+    right: 140px;
+}
+
+.serv {
+    position: relative;
+    top: 100px;
+    left: 15%;
+    width: 70%;
 }
