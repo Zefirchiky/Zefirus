@@ -27,18 +27,6 @@
     margin-top: 28px;
 }
 
-.blog {
-    height: 30px;
-    border: none;
-    background: transparent;
-    -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;
-    background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat #eee;
-    position: relative;
-    bottom: 6px;
-}
-
 .menu *:hover {
     color: darkviolet;
     transition: 0.4s;
@@ -64,6 +52,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     margin-top: 20px;
+    opacity: 70%;
 }
 
 .myName {
@@ -92,9 +81,8 @@ a {
     height: 35px;
     width: 150px;
     background: linear-gradient(#8490ff 0%, #62bdfc 100%);
-    position: relative;
-    top: 20px;
-    right: 240px;
+    margin-top: 20px;
+    margin-right: 400px;
 }
 
 .a1 {
@@ -115,8 +103,112 @@ a {
 }
 
 .serv {
-    position: relative;
-    top: 100px;
-    left: 15%;
+    margin-top: 100px;
     width: 70%;
+}
+
+.icons {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+
+.design {
+    width: 33%;
+}
+
+.fas {
+    font-size: 50px;
+    margin-left: 43%;
+}
+
+.text1 {
+    margin-top: 30px;
+}
+
+.text2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+ .accordion {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 15%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: block;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  } 
+
+/* Слайдер */
+.slider{
+    max-width: 60%;
+    position: relative;
+    margin: auto;
+    height: 600px;
+    top: 20px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+/* Кнопки вперед и назад */
+.slider .previous, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+  
+.allSlider {
+    height: 640px;
+    width: 100%;
+    background: linear-gradient(#8490ff 0%, #62bdfc 100%);
 }

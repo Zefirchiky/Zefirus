@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,11 +21,10 @@
             <a class="services" href="">SERVICES</a>
             <a class="portfolio" href="">PORTFOLIO</a>
             <a class="pricing" href="">PRICING</a>
-            <select class="blog">
-                <option>BLOG</option>
-                <option>Single Blog</option>
-                <option>Home Blog</option>
-            </select>
+            <button class="accordion">БЛОГ</button>
+            <div class="panel">
+                <p>Мой блог</p>
+            </div>
             <a class="pages" href="">PAGES</a>
             <a class="contact" href="">CONTACT</a>
         </div>
@@ -32,20 +32,20 @@
     <div class="me">
         <div class="itsMe">
             <h4 class="this">This is me</h4>
-            <h1 class="myName">Mudruk Artem</h1>
-            <h4 class="this">You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures. </h4>
+            <h1 class="myName">Мудрук Артем</h1>
+            <h4 class="this">Просто ученик на програмиста, если кому нужно ссылка на Telegram тють:</h4>
             <div class="discover">
                 <a class="a1" href="">DISCOVER NOW</a>
             </div>
         </div>
-        <img src="./img/hero-img.webp" class="imgMe">
+        <img src="./img/photo5258433842266616569-1-removebg-preview.png" class="imgMe">
     </div>
     <div class="allAboutMe">
-        <img src="./img/about-img.webp" class="imgAbout">
+        <img src="./img/photo5258433842266616572-1-removebg-preview.png" class="imgAbout">
         <div class="aboutMe">
             <h4 class="this">About me</h4>
-            <h1 class="myName">Personal Details</h1>
-            <h4 class="this">Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </h4>
+            <h1 class="myName">Персональное</h1>
+            <h4 class="this">Планирую стать высококласным програмистом, люблю печеньки с чайком под вечерний просмотр аниме</h4>
             <div class="aboutBut">
                 <a class="a1" href="">VIEM ALL DETAILS</a>
             </div>
@@ -53,9 +53,62 @@
     </div>
     <div class="allServ">
         <div class="serv">
-            <h1 class="myName">My Offered Services</h1>
-            <h4 class="this">At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</h4>
+            <h1 class="myName" align="center">Что я могу</h1>
+            <h4 class="this" align="center">Точнее буду уметь когда отучусь ^^</h4>
+        </div>
+        <div class="icons">
+            <div class="design">
+                <i class="fas fa-chart-pie"></i>
+                <h3 align="center" class="text1">Web Design</h3>
+                <h5 align="center" class="text2 this">Сделаю красоту на вашем сайте c CSS, ну и возможно JS</h5>
+            </div>
+            <div class="design">
+                <i class="fas fa-laptop-code"></i>
+                <h3 align="center" class="text1">Web Development</h3>
+                <h5 align="center" class="text2 this"> If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions. </h5>
+            </div>
+            <div class="design">
+                <i class="fas fa-camera"></i>
+                <h3 align="center" class="text1">Fotography</h3>
+                <h5 align="center" class="text2 this">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills. </h5>
+            </div>
+            <div class="design">
+                <i class="fas fa-image"></i>
+                <h3 align="center" class="text1">Clipping Path</h3>
+                <h5 align="center" class="text2 this">Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument. </h5>
+            </div>
+            <div class="design">
+                <i class="fas fa-mobile"></i>
+                <h3 align="center" class="text1">Apps Interface</h3>
+                <h5 align="center" class="text2 this">Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts. </h5>
+            </div>
+            <div class="design">
+                <i class="fas fa-rocket"></i>
+                <h3 align="center" class="text1">Graphic Design</h3>
+                <h5 align="center" class="text2 this">You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that. </h5>
+            </div>
+            </div>
         </div>
     </div>
+    <div class="allSlider">
+        <div class="slider">
+  
+            <div class="item">
+                <img src="./img/Screenshot from 2021-05-21 17-32-26.png">
+            </div>
+          
+            <div class="item">
+                <img src="./img/Screenshot from 2021-05-21 17-34-57.png">
+            </div>
+          
+            <div class="item">
+                <img src="./img/Screenshot from 2021-05-21 17-39-13.png">
+            </div>
+           
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>
