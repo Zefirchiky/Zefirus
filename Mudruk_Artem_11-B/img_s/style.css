@@ -1,0 +1,50 @@
+*{
+    margin: auto 0;
+}
+
+.menu{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    padding-top: 18px;
+}
+.menu_in{
+    margin-left: 55%;
+}
+.menu_c{
+    font-size: 35px;
+    margin-left: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-decoration: none;
+    transition: all .4s;
+}
+.menu_c:hover{
+    color: aqua;
+}
+
+.bod{
+    margin: auto;
+    width: 60%;
+    height: 1000px;
+    background-color: aliceblue;
+}
+img{
+    width: 40%;
+    height: 40%;
+    margin-left: 6.5%;
+    margin-top: 70px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.img2{
+    width: 55%;
+    height: 40%;
+}
+.img3{
+    width: 25%;
+    height: 40%;
+}
+img:hover{
+    transform: scale(1.2);
+}

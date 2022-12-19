@@ -1,0 +1,24 @@
+*{
+    margin: auto 0;
+}
+
+.menu{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    padding-top: 18px;
+}
+.menu_in{
+    margin-left: 55%;
+}
+.menu_c{
+    font-size: 35px;
+    margin-left: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-decoration: none;
+    transition: all .4s;
+}
+.menu_c:hover{
+    color: aqua;
+}
